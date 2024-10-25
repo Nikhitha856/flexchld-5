@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    height: 25rem;
+    width: 25rem;
+    border: 2px solid black;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+.flex-child1{
+    height: 4rem;
+    width: 4rem;
+    background-color: aqua;
+    align-self:auto;
+}
+.flex-child2{
+    height: 4rem;
+    width: 4rem;
+    background-color:orange;
+    /* it overrides parent content and comes to center of container */
+    align-self: center;
+}
+.flex-child3{
+    height: 4rem;
+    width: 4rem;
+    background-color:olive;
+    align-self:flex-end;
+}
